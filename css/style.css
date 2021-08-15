@@ -1,0 +1,204 @@
+body{
+    box-sizing: border-box;
+}
+.aside{
+    height: 100vh;
+    box-shadow: 2px 0px 2px 1px rgba(0,0,0,0.5);
+}
+.info{
+    margin-left: 50px;
+}
+.info__nav{
+    margin-bottom: 23px;
+}
+.info__list{
+    padding: 0;
+}
+.info__item-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.info__item{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 17px 12px 19px 24px;
+    margin-right: 24px;
+    width: 366px;
+    height: 119px;
+    border-radius: 11px;   
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+}
+.info__item:last-child{
+    margin-right: 0;
+}
+.info__academic{
+    position: relative;
+}
+.info__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 14px;
+}
+.info__title{
+    color: #3C8EC3;
+    font-size: 14px;
+    font-weight: bold;
+    width: 111px;
+}
+.info__count{
+    display: inline-block;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #D43A3A;
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: #FFE1E1;
+}
+.line{
+    display: inline-block;
+    position: relative;
+    width: 325px;
+    height: 10px;
+    background-color: #CECECE;
+    border-radius: 112px;
+}
+.underline{
+    display: inline-block;
+    position: absolute;
+    width: 210px;
+    height: 10px;
+    background-color: #3C8EC3;
+    border-radius: 112px;
+}
+.underline::before{
+    display: inline-block;
+    content: '';
+    top: -8px;
+    left: -2px;
+    position: absolute;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    border-radius: 50%;
+    background-position: center center;
+    width: 24px;
+    height: 24px;
+    background-color: #3C8EC3;
+}
+
+/* =========== */
+.info__academic-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.info__academic-box-wrapper{
+    padding: 0;
+}
+.info__academic-box{
+    cursor: pointer;
+    display: flex;
+    margin-right: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/book.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom -6px right -15px;
+    list-style-type: none;
+    width: 279px;
+    height: 156px;
+    border-radius: 16px;
+    padding: 12px 18px 16px 23px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+
+}
+.info__academic-box:nth-child(5n){
+    margin-right: 0;
+}
+.info__academic-img{
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    border-radius: 50%;
+}
+.info__academic-count{
+    display: inline-block;
+    background-color: #E0F3FF;
+    color: #6BB8E9;
+    border-radius: 15px;
+    padding: 6px 16px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.info__academic-title{
+    color: #59517E;
+    font-size: 16px;
+}
+.fade{
+    animation: fade 2.5s;
+}
+@keyframes fade {
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+
+/* ========= */
+.info__submenu-wrapper{
+    /* position: absolute; */
+    top: 100%;
+    background-color: #6BB8E9;
+    border-radius: 19px;
+    padding: 26px;
+}
+.info__submenu-item{
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/book.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom -6px right -15px;
+    width: 278px;
+    height: 156px;
+    margin-right: 24px;
+    padding: 12px 16px 18px 22px;
+    list-style-type: none;
+    border-radius: 16px;
+    border: 1px solid #000;
+}
+.info__submenu-item:nth-child(5n){
+    margin-right: 0;
+}
+.info__submenu-description{
+    font-size: 16px;
+    color: #59517E;
+}
+.info__submenu-counter{
+    width: 53px;
+    display: block;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #D43A3A;
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: #FFE1E1;
+}

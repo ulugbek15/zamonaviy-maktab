@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Эллипс_5" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_56" data-name="Сгруппировать 56" transform="translate(8.666 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.67, -6)" filter="url(#Эллипс_5)">
+      <circle id="Эллипс_5-2" data-name="Эллипс 5" cx="20" cy="20" r="20" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="II" transform="translate(20.334 26)" fill="#3bb15a" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-5.704" y="0">II</tspan></text>
+    <g id="Эллипс_6" data-name="Эллипс 6" transform="translate(3.334 3)" fill="none" stroke="#3bb15a" stroke-width="2">
+      <circle cx="17" cy="17" r="17" stroke="none"/>
+      <circle cx="17" cy="17" r="16" fill="none"/>
+    </g>
+  </g>
+</svg>
